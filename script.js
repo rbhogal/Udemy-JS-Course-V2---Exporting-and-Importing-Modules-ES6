@@ -1,5 +1,21 @@
 // Importing module
-import { addToCart } from './shoppingCart.js';
-console.log('Importing modules');
+// import { addToCart, totalPrice as price, tq} from './shoppingCart.js';
+// addToCart('bread', 5);
+// console.log(price, tq);
 
-addToCart('bread', 5);
+console.log('Importing modules');
+// console.loc(shippingCost);
+
+// import * as ShoppingCart from './shoppingCart.js';
+// ShoppingCart.addToCart('bread', 5);
+// console.log(ShoppingCart.totalPrice);
+
+// import add, { addToCart, totalPrice as price, tq } from './shoppingCart.js';
+// console.log(price);
+
+import add, {cart} from './shoppingCart.js';
+add('pizza', 2);
+add('bread', 5);
+add('apple', 4);
+
+console.log(cart);
